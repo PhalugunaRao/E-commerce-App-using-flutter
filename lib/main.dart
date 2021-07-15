@@ -5,7 +5,14 @@ void main(){
     new MaterialApp(
       home: new Container(
         color: Colors.white,
-        child: new Text('Geethika'),
+        child: ListView(
+          children:<Widget> [
+             Text('Geethika'),
+            Text('Geethika'),
+
+
+          ],
+        ),
       ),
     )
   );
